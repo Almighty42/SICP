@@ -1,0 +1,10 @@
+(define a 3) 
+(define b (+ a 1)) 
+(display
+(* (cond ((> a b) a)
+         ((< a b) b)
+	 (else -1))
+   (+ a 1)
+)
+)
+(newline)
